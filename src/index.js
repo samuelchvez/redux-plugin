@@ -1,4 +1,4 @@
-export { default as PluginHHOComponent } from './component';
-export { default as PluginHOReducer } from './reducer';
-export { generateAccessor } from './reducer';
-export { hoConfigurationReducer } from './reducer';
+export { default as pluginComponent } from './component';
+export { default as pluginReducer } from './reducer';
+export { genSelector } from './reducer';
+export { genConfiguration } from './reducer';

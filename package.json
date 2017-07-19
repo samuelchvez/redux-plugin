@@ -1,6 +1,6 @@
 {
   "name": "redux-plugin",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Redux architecture for 'plugin' react components",
   "main": "lib/index.js",
   "scripts": {
@@ -8,7 +8,7 @@
     "test": "jest --colors",
     "coverage": "codecov",
     "test:watch": "npm test -- --watch",
-    "lint": "./node_modules/.bin/eslint src/*"
+    "lint": "eslint src/*"
   },
   "files": [
     "lib/"
@@ -43,5 +43,22 @@
     "eslint-plugin-react": "^7.1.0",
     "expect": "^1.20.2",
     "jest": "^18.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samuelchvez/redux-plugin.git"
+  },
+  "keywords": [
+    "redux",
+    "plugin",
+    "react",
+    "plugin",
+    "element"
+  ],
+  "author": "Samuel Chávez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samuelchvez/redux-plugin/issues"
+  },
+  "homepage": "https://github.com/samuelchvez/redux-plugin#readme"
 }
