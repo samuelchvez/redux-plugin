@@ -12,13 +12,17 @@ const plugin = ({
     // If it's registering a new plugin element
     if (type === `${ prefix }/REGISTERED`) {
 
-      // Get a valid initial state
-      const firstState = reducer(rest, { type, payload });
+      if (!state.hasOwnProperty(id)) {
+        // Get a valid initial state
+        const firstState = reducer(rest, { type, payload });
 
-      return {
-        ...state,
-        [id]: reducer(rest, { type, payload, peState: firstState })
+        return {
+          ...state,
+          [id]: reducer(rest, { type, payload, peState: firstState })
+        }
       }
+
+      return state;
     }
 
     // Stop processing if explicitly trying to attach to an existing plugin
