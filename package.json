@@ -1,6 +1,6 @@
 {
   "name": "redux-plugin",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Redux architecture for 'plugin' react components",
   "main": "lib/index.js",
   "scripts": {
