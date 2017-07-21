@@ -1,5 +1,5 @@
 # Redux Plugin
-[Redux](http://redux.js.org/) suggested sub-architecture for 'plugin' [React](https://facebook.github.io/react/) components.
+[Redux](http://redux.js.org/) sub-architecture for 'plugin' [React](https://facebook.github.io/react/) components.
 
 ## Installation
 ```
